@@ -1,0 +1,13 @@
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+Pillow>=8.3.0
+scikit-learn>=1.0.0
+transformers>=4.30.0
+lightning>=2.0.0
+kornia>=0.7.0
+seaborn
+pandas
+tqdm
+opencv-python

@@ -1,0 +1,159 @@
+{
+  "model_type": "ocsvm",
+  "nu": 0.001,
+  "kernel": "rbf",
+  "thresholds": {
+    "p95": -7.669091648205874e-05,
+    "p99": 8.577656629346684e-05,
+    "ref_mean": -0.002172303856775821,
+    "val_ood_rate": 0.0
+  },
+  "auroc": {
+    "photo_holo_copy_ID": 0.987719298245614,
+    "photo_holo_copy_passport": 0.9789473684210527,
+    "copy_without_holo_ID": 0.9035087719298246,
+    "copy_without_holo_passport": 0.9298245614035088,
+    "pseudo_holo_copy_ID": 0.9947368421052631,
+    "pseudo_holo_copy_passport": 0.9929824561403509,
+    "photo_replacement_ID": 0.9157894736842105,
+    "photo_replacement_passport": 0.9245614035087719,
+    "plastified_lowreflect_ID": 0.9833333333333333,
+    "plastified_noholo_ID": 0.9780701754385965,
+    "no_holo_ID": 0.9093567251461988,
+    "no_holo_passport": 0.9017543859649123,
+    "swap_ID": 0.9315789473684211,
+    "swap_passport": 0.9017543859649123,
+    "swap_three_ID": 0.9543859649122807,
+    "plain_holo_ID": 0.9850877192982456,
+    "plain_holo_passport": 0.8122807017543859,
+    "leaf_holo_ID": 0.8903508771929824,
+    "leaf_holo_passport": 0.9824561403508771,
+    "double_sticker_ID": 1.0,
+    "holo_completemask_ID": 0.9385964912280702,
+    "holo_star_world_ID": 0.9719298245614035,
+    "laser_ID": 1.0,
+    "plastified_led_ID": 1.0
+  },
+  "ood_rates": {
+    "photo_holo_copy_ID": {
+      "p95": 0.9,
+      "p99": 0.8,
+      "n": 10
+    },
+    "photo_holo_copy_passport": {
+      "p95": 0.9,
+      "p99": 0.9,
+      "n": 10
+    },
+    "copy_without_holo_ID": {
+      "p95": 0.4,
+      "p99": 0.2,
+      "n": 10
+    },
+    "copy_without_holo_passport": {
+      "p95": 0.6,
+      "p99": 0.6,
+      "n": 10
+    },
+    "pseudo_holo_copy_ID": {
+      "p95": 0.9,
+      "p99": 0.9,
+      "n": 10
+    },
+    "pseudo_holo_copy_passport": {
+      "p95": 1.0,
+      "p99": 1.0,
+      "n": 10
+    },
+    "photo_replacement_ID": {
+      "p95": 0.2,
+      "p99": 0.2,
+      "n": 10
+    },
+    "photo_replacement_passport": {
+      "p95": 0.3,
+      "p99": 0.2,
+      "n": 10
+    },
+    "plastified_lowreflect_ID": {
+      "p95": 0.85,
+      "p99": 0.85,
+      "n": 20
+    },
+    "plastified_noholo_ID": {
+      "p95": 0.8,
+      "p99": 0.75,
+      "n": 20
+    },
+    "no_holo_ID": {
+      "p95": 0.3333333333333333,
+      "p99": 0.3,
+      "n": 30
+    },
+    "no_holo_passport": {
+      "p95": 0.35,
+      "p99": 0.25,
+      "n": 20
+    },
+    "swap_ID": {
+      "p95": 0.7,
+      "p99": 0.7,
+      "n": 10
+    },
+    "swap_passport": {
+      "p95": 0.45,
+      "p99": 0.45,
+      "n": 20
+    },
+    "swap_three_ID": {
+      "p95": 0.9,
+      "p99": 0.8,
+      "n": 10
+    },
+    "plain_holo_ID": {
+      "p95": 0.9,
+      "p99": 0.9,
+      "n": 20
+    },
+    "plain_holo_passport": {
+      "p95": 0.6,
+      "p99": 0.6,
+      "n": 10
+    },
+    "leaf_holo_ID": {
+      "p95": 0.75,
+      "p99": 0.75,
+      "n": 20
+    },
+    "leaf_holo_passport": {
+      "p95": 1.0,
+      "p99": 1.0,
+      "n": 10
+    },
+    "double_sticker_ID": {
+      "p95": 1.0,
+      "p99": 1.0,
+      "n": 10
+    },
+    "holo_completemask_ID": {
+      "p95": 0.8,
+      "p99": 0.8,
+      "n": 10
+    },
+    "holo_star_world_ID": {
+      "p95": 0.9,
+      "p99": 0.9,
+      "n": 10
+    },
+    "laser_ID": {
+      "p95": 1.0,
+      "p99": 1.0,
+      "n": 10
+    },
+    "plastified_led_ID": {
+      "p95": 1.0,
+      "p99": 1.0,
+      "n": 10
+    }
+  }
+}

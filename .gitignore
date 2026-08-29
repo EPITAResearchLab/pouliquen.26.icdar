@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+lightning_logs/
+mlruns/
+
+# Generated experiment plots (not needed for result scripts)
+msm/logs/**/*.svg
+msm/logs/**/*.png
+msm/logs/**/*.pdf
+msm/logs/**/*.npz
+
+# User-specific config (template is data_example.txt)
+msm/configs/onlyorigins/data.txt
+
+# Dataset directories (downloaded separately from Zenodo)
+sequenceclassif/rectified/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# SLURM job outputs
+*.out
+*.err

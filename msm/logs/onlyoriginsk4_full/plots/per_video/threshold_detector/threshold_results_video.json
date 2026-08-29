@@ -1,0 +1,450 @@
+{
+  "thresholds": {
+    "thr_bot": 0.06210757076740265,
+    "thr_top": 0.11574925631284715,
+    "std_seq": 0.17576677387744283,
+    "std_recon": 0.02090584973083207,
+    "p95_combined": 0.0,
+    "p99_combined": 0.07975245221591418,
+    "q_bottom": 0.01,
+    "q_high": 0.99
+  },
+  "auroc": {
+    "photo_holo_copy_ID": 0.8325,
+    "photo_holo_copy_passport": 0.8291666666666667,
+    "copy_without_holo_ID": 0.6749999999999999,
+    "copy_without_holo_passport": 0.7224999999999999,
+    "pseudo_holo_copy_ID": 0.895,
+    "pseudo_holo_copy_passport": 0.8783333333333333,
+    "photo_replacement_ID": 0.7208333333333332,
+    "photo_replacement_passport": 0.7158333333333332,
+    "plastified_lowreflect_ID": 0.7816666666666667,
+    "plastified_noholo_ID": 0.5462499999999999,
+    "no_holo_ID": 0.7405555555555555,
+    "no_holo_passport": 0.6216666666666666,
+    "swap_ID": 0.8408333333333333,
+    "swap_passport": 0.70375,
+    "swap_three_ID": 0.6325,
+    "plain_holo_ID": 0.7866666666666666,
+    "plain_holo_passport": 0.6325,
+    "leaf_holo_ID": 0.8654166666666666,
+    "leaf_holo_passport": 0.89,
+    "double_sticker_ID": 1.0,
+    "holo_completemask_ID": 0.8408333333333333,
+    "holo_star_world_ID": 0.6849999999999999,
+    "laser_ID": 1.0,
+    "plastified_led_ID": 0.7374999999999999
+  },
+  "ood_rates": {
+    "photo_holo_copy_ID": {
+      "p95": 0.7,
+      "p99": 0.7,
+      "n": 10
+    },
+    "photo_holo_copy_passport": {
+      "p95": 0.7,
+      "p99": 0.6,
+      "n": 10
+    },
+    "copy_without_holo_ID": {
+      "p95": 0.4,
+      "p99": 0.3,
+      "n": 10
+    },
+    "copy_without_holo_passport": {
+      "p95": 0.5,
+      "p99": 0.4,
+      "n": 10
+    },
+    "pseudo_holo_copy_ID": {
+      "p95": 0.8,
+      "p99": 0.8,
+      "n": 10
+    },
+    "pseudo_holo_copy_passport": {
+      "p95": 0.8,
+      "p99": 0.8,
+      "n": 10
+    },
+    "photo_replacement_ID": {
+      "p95": 0.5,
+      "p99": 0.2,
+      "n": 10
+    },
+    "photo_replacement_passport": {
+      "p95": 0.5,
+      "p99": 0.5,
+      "n": 10
+    },
+    "plastified_lowreflect_ID": {
+      "p95": 0.6,
+      "p99": 0.5,
+      "n": 20
+    },
+    "plastified_noholo_ID": {
+      "p95": 0.15,
+      "p99": 0.1,
+      "n": 20
+    },
+    "no_holo_ID": {
+      "p95": 0.5333333333333333,
+      "p99": 0.43333333333333335,
+      "n": 30
+    },
+    "no_holo_passport": {
+      "p95": 0.3,
+      "p99": 0.25,
+      "n": 20
+    },
+    "swap_ID": {
+      "p95": 0.7,
+      "p99": 0.7,
+      "n": 10
+    },
+    "swap_passport": {
+      "p95": 0.45,
+      "p99": 0.4,
+      "n": 20
+    },
+    "swap_three_ID": {
+      "p95": 0.3,
+      "p99": 0.3,
+      "n": 10
+    },
+    "plain_holo_ID": {
+      "p95": 0.6,
+      "p99": 0.6,
+      "n": 20
+    },
+    "plain_holo_passport": {
+      "p95": 0.3,
+      "p99": 0.3,
+      "n": 10
+    },
+    "leaf_holo_ID": {
+      "p95": 0.75,
+      "p99": 0.7,
+      "n": 20
+    },
+    "leaf_holo_passport": {
+      "p95": 0.8,
+      "p99": 0.8,
+      "n": 10
+    },
+    "double_sticker_ID": {
+      "p95": 1.0,
+      "p99": 1.0,
+      "n": 10
+    },
+    "holo_completemask_ID": {
+      "p95": 0.7,
+      "p99": 0.7,
+      "n": 10
+    },
+    "holo_star_world_ID": {
+      "p95": 0.4,
+      "p99": 0.4,
+      "n": 10
+    },
+    "laser_ID": {
+      "p95": 1.0,
+      "p99": 1.0,
+      "n": 10
+    },
+    "plastified_led_ID": {
+      "p95": 0.5,
+      "p99": 0.5,
+      "n": 10
+    }
+  },
+  "metrics": {
+    "photo_holo_copy_ID": {
+      "n_samples": 10,
+      "auroc": 0.8325,
+      "ood_p95": 0.7,
+      "ood_p99": 0.7,
+      "mean_seq": 0.11842991575346282,
+      "mean_recon": 0.9790027641142505,
+      "mean_combined": 1.0890897774145516,
+      "std_seq": 0.12282601877082557,
+      "std_recon": 1.983519984165584,
+      "std_combined": 1.9326399644211378
+    },
+    "photo_holo_copy_passport": {
+      "n_samples": 10,
+      "auroc": 0.8291666666666667,
+      "ood_p95": 0.7,
+      "ood_p99": 0.6,
+      "mean_seq": 0.0979370501630528,
+      "mean_recon": 0.07497340852825576,
+      "mean_combined": 0.17291045869130856,
+      "std_seq": 0.11689344425031792,
+      "std_recon": 0.16202745914920083,
+      "std_combined": 0.15884465959922747
+    },
+    "copy_without_holo_ID": {
+      "n_samples": 10,
+      "auroc": 0.6749999999999999,
+      "ood_p95": 0.4,
+      "ood_p99": 0.3,
+      "mean_seq": 0.07554483370280267,
+      "mean_recon": 0.0,
+      "mean_combined": 0.07554483370280267,
+      "std_seq": 0.11618890152617156,
+      "std_recon": 0.0,
+      "std_combined": 0.11618890152617156
+    },
+    "copy_without_holo_passport": {
+      "n_samples": 10,
+      "auroc": 0.7224999999999999,
+      "ood_p95": 0.5,
+      "ood_p99": 0.4,
+      "mean_seq": 0.0901037337941064,
+      "mean_recon": 0.006833079005568915,
+      "mean_combined": 0.0901037337941064,
+      "std_seq": 0.11997750044447811,
+      "std_recon": 0.020499237016706747,
+      "std_combined": 0.11997750044447811
+    },
+    "pseudo_holo_copy_ID": {
+      "n_samples": 10,
+      "auroc": 0.895,
+      "ood_p95": 0.8,
+      "ood_p99": 0.8,
+      "mean_seq": 0.16010950965401594,
+      "mean_recon": 0.25669669911565807,
+      "mean_combined": 0.3668238612678755,
+      "std_seq": 0.11758272173622415,
+      "std_recon": 0.36042301050762277,
+      "std_combined": 0.3029934499707986
+    },
+    "pseudo_holo_copy_passport": {
+      "n_samples": 10,
+      "auroc": 0.8783333333333333,
+      "ood_p95": 0.8,
+      "ood_p99": 0.8,
+      "mean_seq": 0.17062425440826862,
+      "mean_recon": 0.04407872998704958,
+      "mean_combined": 0.19375701466453227,
+      "std_seq": 0.1137993707483018,
+      "std_recon": 0.13223618996114872,
+      "std_combined": 0.13986836717591822
+    },
+    "photo_replacement_ID": {
+      "n_samples": 10,
+      "auroc": 0.7208333333333332,
+      "ood_p95": 0.5,
+      "ood_p99": 0.2,
+      "mean_seq": 0.06256852945399606,
+      "mean_recon": 0.0,
+      "mean_combined": 0.06256852945399606,
+      "std_seq": 0.09500853409368747,
+      "std_recon": 0.0,
+      "std_combined": 0.09500853409368747
+    },
+    "photo_replacement_passport": {
+      "n_samples": 10,
+      "auroc": 0.7158333333333332,
+      "ood_p95": 0.5,
+      "ood_p99": 0.5,
+      "mean_seq": 0.07078543462632875,
+      "mean_recon": 0.0,
+      "mean_combined": 0.07078543462632875,
+      "std_seq": 0.07913158371048214,
+      "std_recon": 0.0,
+      "std_combined": 0.07913158371048214
+    },
+    "plastified_lowreflect_ID": {
+      "n_samples": 20,
+      "auroc": 0.7816666666666667,
+      "ood_p95": 0.6,
+      "ood_p99": 0.5,
+      "mean_seq": 0.1438239190901225,
+      "mean_recon": 0.0,
+      "mean_combined": 0.1438239190901225,
+      "std_seq": 0.1474147734906976,
+      "std_recon": 0.0,
+      "std_combined": 0.1474147734906976
+    },
+    "plastified_noholo_ID": {
+      "n_samples": 20,
+      "auroc": 0.5462499999999999,
+      "ood_p95": 0.15,
+      "ood_p99": 0.1,
+      "mean_seq": 0.01193909119858059,
+      "mean_recon": 0.0031922471176842903,
+      "mean_combined": 0.015131338316264878,
+      "std_seq": 0.03655674975349428,
+      "std_recon": 0.013914682588794814,
+      "std_combined": 0.03812858881670861
+    },
+    "no_holo_ID": {
+      "n_samples": 30,
+      "auroc": 0.7405555555555555,
+      "ood_p95": 0.5333333333333333,
+      "ood_p99": 0.43333333333333335,
+      "mean_seq": 0.09732594190501667,
+      "mean_recon": 0.0,
+      "mean_combined": 0.09732594190501667,
+      "std_seq": 0.11831232790917787,
+      "std_recon": 0.0,
+      "std_combined": 0.11831232790917787
+    },
+    "no_holo_passport": {
+      "n_samples": 20,
+      "auroc": 0.6216666666666666,
+      "ood_p95": 0.3,
+      "ood_p99": 0.25,
+      "mean_seq": 0.047027361903509646,
+      "mean_recon": 0.0,
+      "mean_combined": 0.047027361903509646,
+      "std_seq": 0.08757296673016557,
+      "std_recon": 0.0,
+      "std_combined": 0.08757296673016557
+    },
+    "swap_ID": {
+      "n_samples": 10,
+      "auroc": 0.8408333333333333,
+      "ood_p95": 0.7,
+      "ood_p99": 0.7,
+      "mean_seq": 0.0,
+      "mean_recon": 0.9345833919606376,
+      "mean_combined": 0.9345833919606376,
+      "std_seq": 0.0,
+      "std_recon": 1.330080547945566,
+      "std_combined": 1.330080547945566
+    },
+    "swap_passport": {
+      "n_samples": 20,
+      "auroc": 0.70375,
+      "ood_p95": 0.45,
+      "ood_p99": 0.4,
+      "mean_seq": 0.012670112034397695,
+      "mean_recon": 0.4613746322787543,
+      "mean_combined": 0.474044744313152,
+      "std_seq": 0.03934213105751904,
+      "std_recon": 0.7530886628090955,
+      "std_combined": 0.7463236568447611
+    },
+    "swap_three_ID": {
+      "n_samples": 10,
+      "auroc": 0.6325,
+      "ood_p95": 0.3,
+      "ood_p99": 0.3,
+      "mean_seq": 0.0,
+      "mean_recon": 0.15916592369367027,
+      "mean_combined": 0.15916592369367027,
+      "std_seq": 0.0,
+      "std_recon": 0.27297473002880945,
+      "std_combined": 0.27297473002880945
+    },
+    "plain_holo_ID": {
+      "n_samples": 20,
+      "auroc": 0.7866666666666666,
+      "ood_p95": 0.6,
+      "ood_p99": 0.6,
+      "mean_seq": 0.0,
+      "mean_recon": 0.8520280668695733,
+      "mean_combined": 0.8520280668695733,
+      "std_seq": 0.0,
+      "std_recon": 1.2629782066486102,
+      "std_combined": 1.2629782066486102
+    },
+    "plain_holo_passport": {
+      "n_samples": 10,
+      "auroc": 0.6325,
+      "ood_p95": 0.3,
+      "ood_p99": 0.3,
+      "mean_seq": 0.0,
+      "mean_recon": 0.28898917877753927,
+      "mean_combined": 0.28898917877753927,
+      "std_seq": 0.0,
+      "std_recon": 0.5163537469152004,
+      "std_combined": 0.5163537469152004
+    },
+    "leaf_holo_ID": {
+      "n_samples": 20,
+      "auroc": 0.8654166666666666,
+      "ood_p95": 0.75,
+      "ood_p99": 0.7,
+      "mean_seq": 0.0,
+      "mean_recon": 1.2072212870034569,
+      "mean_combined": 1.2072212870034569,
+      "std_seq": 0.0,
+      "std_recon": 1.3093271514850635,
+      "std_combined": 1.3093271514850635
+    },
+    "leaf_holo_passport": {
+      "n_samples": 10,
+      "auroc": 0.89,
+      "ood_p95": 0.8,
+      "ood_p99": 0.8,
+      "mean_seq": 0.0,
+      "mean_recon": 1.3896998443760755,
+      "mean_combined": 1.3896998443760755,
+      "std_seq": 0.0,
+      "std_recon": 1.20471260648426,
+      "std_combined": 1.20471260648426
+    },
+    "double_sticker_ID": {
+      "n_samples": 10,
+      "auroc": 1.0,
+      "ood_p95": 1.0,
+      "ood_p99": 1.0,
+      "mean_seq": 0.0,
+      "mean_recon": 2.6567416799489907,
+      "mean_combined": 2.6567416799489907,
+      "std_seq": 0.0,
+      "std_recon": 1.0284701970157202,
+      "std_combined": 1.0284701970157202
+    },
+    "holo_completemask_ID": {
+      "n_samples": 10,
+      "auroc": 0.8408333333333333,
+      "ood_p95": 0.7,
+      "ood_p99": 0.7,
+      "mean_seq": 0.0,
+      "mean_recon": 0.7181365538451905,
+      "mean_combined": 0.7181365538451905,
+      "std_seq": 0.0,
+      "std_recon": 0.8837867443772767,
+      "std_combined": 0.8837867443772767
+    },
+    "holo_star_world_ID": {
+      "n_samples": 10,
+      "auroc": 0.6849999999999999,
+      "ood_p95": 0.4,
+      "ood_p99": 0.4,
+      "mean_seq": 0.0,
+      "mean_recon": 0.3624835512502512,
+      "mean_combined": 0.3624835512502512,
+      "std_seq": 0.0,
+      "std_recon": 0.4610409748320666,
+      "std_combined": 0.4610409748320666
+    },
+    "laser_ID": {
+      "n_samples": 10,
+      "auroc": 1.0,
+      "ood_p95": 1.0,
+      "ood_p99": 1.0,
+      "mean_seq": 0.0,
+      "mean_recon": 4.680897791429816,
+      "mean_combined": 4.680897791429816,
+      "std_seq": 0.0,
+      "std_recon": 2.029854345667962,
+      "std_combined": 2.029854345667962
+    },
+    "plastified_led_ID": {
+      "n_samples": 10,
+      "auroc": 0.7374999999999999,
+      "ood_p95": 0.5,
+      "ood_p99": 0.5,
+      "mean_seq": 0.0,
+      "mean_recon": 0.8839071906518035,
+      "mean_combined": 0.8839071906518035,
+      "std_seq": 0.0,
+      "std_recon": 1.255799768021855,
+      "std_combined": 1.255799768021855
+    }
+  }
+}

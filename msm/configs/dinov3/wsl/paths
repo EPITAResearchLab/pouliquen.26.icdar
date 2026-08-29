@@ -1,0 +1,6 @@
+fold_name projector_model_path
+k2 mlruns/148549469579940632/6645de68080a4c4da5b017f602f27cd5/checkpoints/backbone_epoch=12-val_loss=0.06.ckpt
+k3 mlruns/148549469579940632/0932f9fa17464a139da6f4c7f9918d1d/checkpoints/backbone_epoch=14-val_loss=0.04.ckpt
+k1 mlruns/148549469579940632/9b90e076b3754260b1d6b0a5d29bcb14/checkpoints/backbone_epoch=11-val_loss=0.03.ckpt
+k4 mlruns/148549469579940632/2c5fa502ba014a67a426ccf4d806a241/checkpoints/backbone_epoch=14-val_loss=0.05.ckpt
+k0 mlruns/148549469579940632/98c8bb258c7b4576ac67ee3921df9bfb/checkpoints/backbone_epoch=10-val_loss=0.01.ckpt
