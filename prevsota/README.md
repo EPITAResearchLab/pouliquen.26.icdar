@@ -19,5 +19,10 @@ This directory contains the config files and modified evaluation script used to 
 
 ```bash
 # from inside the pouliquen.25.icdar repo
-python test.py experiment=valid_nonvalid/mobilevit15fps
+python train.py --config-name=wsl -m +experiment=wsl/mobilevit_s_5fps_onlyorigins_old2_norota_icdar26 "paths.split_name=k0,k1,k2,k3,k4"
+
+python calibration.py --config-name=wsl -m +experiment=wsl/mobilevit_s_5fps_onlyorigins_old2_norota_icdar26 "paths.split_name=k0,k1,k2,k3,k4" "decision=allvideo"
+
+# with provided test.py
+python test.py --config-name=wsl -m +experiment=wsl/mobilevit_s_5fps_onlyorigins_old2_norota_icdar26 "paths.split_name=k0,k1,k2,k3,k4" "decision=allvideo"
 ```
